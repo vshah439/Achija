@@ -63,7 +63,7 @@
 			// Navigation Panel.
 				$(
 					'<div id="navPanel" class="mobile-menu">' +
-						'<table><tr><td class="current"><a href="index.html">Home</a></td></tr>'+
+						'<table class="menu-table"><tr><img classs="image" style="width:7.5em;height:4em;border-radius:50%" src="images/Achija.png" /> </tr><tr><td class="current"><a href="index.html">Home</a></td></tr>'+
 						'<tr ><td class="opener" ><a href="#">Our Collection</a></td></tr>'+
 						'<tr><td class="mobile-sub-menu"><a>Shirts</a></td></tr>'+
 						'<tr><td class="mobile-sub-menu"><a>Short Kurta</a></td></tr>'+

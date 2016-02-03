@@ -52,7 +52,9 @@ echo $name;
 					<p>146,Krishna bhavan,Room no -17,First floor,
 					</br>Dr Vegas street,Kalbadevi road,Mumbai-400 002</p>
 					<p><strong>Mobile no</strong> +91- 9867148405 / 9867470899</p>
-					<div id="map"></div>
+					<div id="">
+					<img classs="image" style="width:20em;height:16em;" src="images/achija_box.jpg" /> 
+					</div>
 					</div>
 					<div class="box container 8u 12u(mobile)">
 				<header style="text-align: center">

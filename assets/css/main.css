@@ -106,6 +106,22 @@ body {
 	.container {
 		width: 1200px;
 	}
+	.logo-image{
+	width:7.5em;height:4em;border-radius:50%
+	}
+	#header-wrapper {
+	padding: 0.2em 0;
+	background: #ffffff;
+	border-bottom: solid 1px #ccc;
+	position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    background: rgba(255, 255, 255, 0.95);
+    height: 2em;
+	}
 }
 
 @media screen and (min-width: 737px) and (max-width: 1200px) {
@@ -125,6 +141,22 @@ body {
 	}
 	.container {
 		width: 960px;
+	}
+	.logo-image{
+	width:7.5em;height:4em;border-radius:50%
+	}
+	#header-wrapper {
+	padding: 0.2em 0;
+	background: #ffffff;
+	border-bottom: solid 1px #ccc;
+	position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    background: rgba(255, 255, 255, 0.95);
+    height: 2em;
 	}
 }
 
@@ -146,6 +178,23 @@ body {
 	.container {
 		width: 100% !important;
 	}
+	.logo-image{
+	width:4em;height:2em;border-radius:50%
+	}
+	#header-wrapper {
+	padding: 0.2em 0;
+	background: #ffffff;
+	border-bottom: solid 1px #ccc;
+	position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    background: rgba(255, 255, 255, 0.95);
+    
+	}
+	
 }
 
 /* Grid */
@@ -1452,19 +1501,7 @@ ol.default li {
 }
 
 /* Wrappers */
-#header-wrapper {
-	
-	background: #ffffff;
-	border-bottom: solid 1px #ccc;
-	position: fixed;
-    z-index: 100;
-    left: 0;
-    top: 0;
-    width: 100%;
-    background: #fff;
-    background: rgba(255, 255, 255, 0.95);
-    height: 2em;
-}
+
 
 #main-wrapper {
 	position: relative;
@@ -2116,9 +2153,7 @@ ol.default li {
 		padding: 4em 10px;
 		overflow: hidden;
 	}
-	#header-wrapper {
-		padding: 2em 0;
-	}
+	
 	#footer-wrapper {
 		padding: 1em 2em;
 		overflow: hidden;
@@ -2266,7 +2301,85 @@ ol.default li {
 }
 .mobile-menu a{
 	text-decoration: none;
+	
 }
 .mobile-sub-menu {
 	padding-left:1em;
+	
 }
+.mobile-sub-menu a{
+	cursor:hand;
+}
+.Category-Name{
+background-color:#D52349;
+font-family: Dosis !important;
+font-size: 24px;
+color: white !important;
+float: left;
+text-align: left;
+height: 50px;
+padding: 12px 0px 0px 15px;
+width: 100%	;}
+.flexy-menu {
+    width: 100%;
+    margin: 0px;
+    position: relative;
+    float: left;
+    list-style: outside none none;
+    background: none repeat scroll 0% 0% transparent;
+    color: #B09886;
+    padding: 28px 0px 5px 0%;
+}
+.flexy-menu > li > a {
+    background-image: url("/skin/frontend/manyavar/default/images/Browse-Page/link-bullet.png");
+    background-position: 0px 9px;
+    background-repeat: no-repeat;
+    padding: 12px 0px 12px 30px;
+    margin: 0px;
+    font-family: "Dosis",sans-serif;
+    color: #000;
+    text-decoration: none;
+    display: block;
+    text-transform: uppercase;
+    transition: color 0.2s linear 0s, #F2F1F0 0.2s linear 0s;
+    text-align: center;
+    cursor: hand;
+}
+.flexy-menu li {
+    display: inline;
+    margin: 6px 16px 0px 0px;
+    padding: 0px;
+    float: left;
+    line-height: 20px;
+    position: relative;
+    text-transform: uppercase;
+    font-family: "Dosis",sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    
+}
+.collection-label{
+	color:#D52349;
+	
+   font-size: 20px;
+    text-decoration: none;
+    display: block;
+    text-transform: uppercase;
+     padding: 12px 0px 12px 30px;
+    margin: 0px;
+}
+.active-label{
+	background-color:#D52349;
+	color:white;
+}
+a.active {
+    background: url("/skin/frontend/manyavar/default/images/Browse-Page/active-bullet.png") no-repeat scroll 0px 9px transparent;
+    padding: 6px 0px 6px 30px;
+    margin: 0px;
+    color: #000;
+    text-decoration: none;
+    display: block;
+    text-transform: uppercase;
+    transition: color 0.2s linear 0s, #F2F1F0 0.2s linear 0s;
+}
+.menu-table
