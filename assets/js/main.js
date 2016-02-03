@@ -63,14 +63,14 @@
 			// Navigation Panel.
 				$(
 					'<div id="navPanel" class="mobile-menu">' +
-						'<table class="menu-table"><tr><img classs="image" style="width:7.5em;height:4em;border-radius:50%" src="images/Achija.png" /> </tr><tr><td class="current"><a href="index.html">Home</a></td></tr>'+
+						'<table class="menu-table"><tr><img classs="image" style="width:7.5em;height:4em;border-radius:50%" src="images/Achija.png" /> </tr><tr><td class="current"><a ui-sref="home">Home</a></td></tr>'+
 						'<tr ><td class="opener" ><a href="#">Our Collection</a></td></tr>'+
-						'<tr><td class="mobile-sub-menu"><a>Shirts</a></td></tr>'+
-						'<tr><td class="mobile-sub-menu"><a>Short Kurta</a></td></tr>'+
-						'<tr><td class="mobile-sub-menu"><a>Shervani</a></td></tr>'+
-						'<tr><td class="mobile-sub-menu"><a>Kurta Payajama</a></td></tr>'+
+						'<tr><td class="mobile-sub-menu"><a ui-sref="shirts">Shirts</a></td></tr>'+
+						'<tr><td class="mobile-sub-menu"><a ui-sref="short_kurta">Short Kurta</a></td></tr>'+
+						'<tr><td class="mobile-sub-menu"><a ui-sref="shervani">Shervani</a></td></tr>'+
+						'<tr><td class="mobile-sub-menu"><a ui-sref="kurta_payajama">Kurta Payajama</a></td></tr>'+
 						
-						'<tr><td><a ui-sref="about" href="no-sidebar.html">About Us</a></td></tr>'+
+						'<tr><td><a ui-sref="about" >About Us</a></td></tr>'+
 						'<tr><td><a ui-sref="contact" href="no-sidebar.html">Contact Us</a></td> </tr> </table>'+
 
 								
